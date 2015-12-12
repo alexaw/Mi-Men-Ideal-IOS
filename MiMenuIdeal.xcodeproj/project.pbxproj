@@ -7,14 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B01373A1C1C6D3100F04D5D /* IngrePerro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0137391C1C6D3100F04D5D /* IngrePerro.swift */; };
+		1B01373C1C1C6D4C00F04D5D /* IngreHamburguesa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01373B1C1C6D4C00F04D5D /* IngreHamburguesa.swift */; };
+		1B01373E1C1C6D5F00F04D5D /* IngreSandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01373D1C1C6D5F00F04D5D /* IngreSandwich.swift */; };
+		1B0137401C1C6D6F00F04D5D /* IngreJugos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01373F1C1C6D6F00F04D5D /* IngreJugos.swift */; };
+		1B0137421C1C6D8100F04D5D /* IngreGaseosas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0137411C1C6D8100F04D5D /* IngreGaseosas.swift */; };
+		1B0137441C1C6D9800F04D5D /* IngreGranizados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0137431C1C6D9800F04D5D /* IngreGranizados.swift */; };
+		1B0137461C1C6DA700F04D5D /* IngreMalteadas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0137451C1C6DA700F04D5D /* IngreMalteadas.swift */; };
+		1B0137481C1C6DC900F04D5D /* IngreEnsaFrutas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0137471C1C6DC900F04D5D /* IngreEnsaFrutas.swift */; };
+		1B01374A1C1C6DDB00F04D5D /* IngreBananaSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0137491C1C6DDB00F04D5D /* IngreBananaSplit.swift */; };
+		1B01374C1C1C6DEB00F04D5D /* IngreCopaHelado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01374B1C1C6DEA00F04D5D /* IngreCopaHelado.swift */; };
+		1B01374E1C1C6DF900F04D5D /* IngreFresasHelado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01374D1C1C6DF900F04D5D /* IngreFresasHelado.swift */; };
+		1B0137501C1C6E0400F04D5D /* IngrePanaderia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01374F1C1C6E0400F04D5D /* IngrePanaderia.swift */; };
+		1B0137521C1C6E1000F04D5D /* IngreTipicos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0137511C1C6E1000F04D5D /* IngreTipicos.swift */; };
 		1B222CA21C171D8F003E691D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B222CA11C171D8F003E691D /* AppDelegate.swift */; };
 		1B222CA41C171D8F003E691D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B222CA31C171D8F003E691D /* ViewController.swift */; };
 		1B222CA71C171D8F003E691D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B222CA51C171D8F003E691D /* Main.storyboard */; };
 		1B222CA91C171D8F003E691D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B222CA81C171D8F003E691D /* Assets.xcassets */; };
 		1B222CAC1C171D8F003E691D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B222CAA1C171D8F003E691D /* LaunchScreen.storyboard */; };
+		1BE0D0041C1B7ED000C3F04C /* PerroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0031C1B7ED000C3F04C /* PerroTableViewCell.swift */; };
+		1BE0D0061C1B7EEB00C3F04C /* HamburguesaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0051C1B7EEB00C3F04C /* HamburguesaTableViewCell.swift */; };
+		1BE0D0081C1B7EFE00C3F04C /* SandwichTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0071C1B7EFE00C3F04C /* SandwichTableViewCell.swift */; };
+		1BE0D00A1C1B7F1100C3F04C /* JugosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0091C1B7F1100C3F04C /* JugosTableViewCell.swift */; };
+		1BE0D00C1C1B7F2100C3F04C /* GaseosasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D00B1C1B7F2100C3F04C /* GaseosasTableViewCell.swift */; };
+		1BE0D00E1C1B7F3800C3F04C /* GranizadosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D00D1C1B7F3800C3F04C /* GranizadosTableViewCell.swift */; };
+		1BE0D0101C1B7F4900C3F04C /* MalteadasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D00F1C1B7F4900C3F04C /* MalteadasTableViewCell.swift */; };
+		1BE0D0121C1B7FB300C3F04C /* EnsaFrutasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0111C1B7FB300C3F04C /* EnsaFrutasTableViewCell.swift */; };
+		1BE0D0141C1B7FC400C3F04C /* BananaSplitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0131C1B7FC400C3F04C /* BananaSplitTableViewCell.swift */; };
+		1BE0D0161C1B7FD900C3F04C /* CopaHeladoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0151C1B7FD900C3F04C /* CopaHeladoTableViewCell.swift */; };
+		1BE0D0181C1B7FE800C3F04C /* FresasHeladoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0171C1B7FE800C3F04C /* FresasHeladoTableViewCell.swift */; };
+		1BE0D01A1C1B801300C3F04C /* PanaderiaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0191C1B801300C3F04C /* PanaderiaTableViewCell.swift */; };
+		1BE0D01C1C1B802100C3F04C /* TipicosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D01B1C1B802100C3F04C /* TipicosTableViewCell.swift */; };
+		1BE0D01E1C1B83C400C3F04C /* PerroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D01D1C1B83C400C3F04C /* PerroViewController.swift */; };
+		1BE0D0201C1B83D800C3F04C /* HamburguesaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D01F1C1B83D800C3F04C /* HamburguesaViewController.swift */; };
+		1BE0D0221C1B83FF00C3F04C /* SandwichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0211C1B83FF00C3F04C /* SandwichViewController.swift */; };
+		1BE0D0241C1B840F00C3F04C /* JugosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0231C1B840F00C3F04C /* JugosViewController.swift */; };
+		1BE0D0261C1B842100C3F04C /* GaseosasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0251C1B842100C3F04C /* GaseosasViewController.swift */; };
+		1BE0D0281C1B843200C3F04C /* GranizadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0271C1B843200C3F04C /* GranizadosViewController.swift */; };
+		1BE0D02A1C1B844200C3F04C /* MalteadasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0291C1B844200C3F04C /* MalteadasViewController.swift */; };
+		1BE0D02C1C1B845200C3F04C /* EnsaFrutasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D02B1C1B845200C3F04C /* EnsaFrutasViewController.swift */; };
+		1BE0D02E1C1B846500C3F04C /* BananaSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D02D1C1B846500C3F04C /* BananaSplitViewController.swift */; };
+		1BE0D0301C1B847600C3F04C /* CopaHeladoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D02F1C1B847600C3F04C /* CopaHeladoViewController.swift */; };
+		1BE0D0321C1B848A00C3F04C /* FresasHeladoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0311C1B848A00C3F04C /* FresasHeladoViewController.swift */; };
+		1BE0D0341C1B849800C3F04C /* PanaderiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0331C1B849800C3F04C /* PanaderiaViewController.swift */; };
+		1BE0D0361C1B84A600C3F04C /* TipicosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0D0351C1B84A600C3F04C /* TipicosViewController.swift */; };
+		1BE1610D1C1A243300240BFC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE1610C1C1A243300240BFC /* AudioToolbox.framework */; };
+		1BE1610F1C1A243B00240BFC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE1610E1C1A243B00240BFC /* CFNetwork.framework */; };
+		1BE161111C1A244B00240BFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE161101C1A244B00240BFC /* CoreGraphics.framework */; };
+		1BE161131C1A245400240BFC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE161121C1A245400240BFC /* MobileCoreServices.framework */; };
+		1BE161151C1A245E00240BFC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE161141C1A245E00240BFC /* QuartzCore.framework */; };
+		1BE161171C1A246500240BFC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE161161C1A246500240BFC /* Security.framework */; };
+		1BE161191C1A246F00240BFC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE161181C1A246F00240BFC /* StoreKit.framework */; };
+		1BE1611B1C1A247B00240BFC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE1611A1C1A247B00240BFC /* SystemConfiguration.framework */; };
+		1BE1611D1C1A26C900240BFC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE1611C1C1A26C900240BFC /* libz.tbd */; };
+		1BE1611F1C1A274800240BFC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE1611E1C1A274800240BFC /* libsqlite3.tbd */; };
+		1BE161221C1A29BF00240BFC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE161211C1A29BF00240BFC /* Bolts.framework */; };
+		1BE161241C1A29CC00240BFC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE161231C1A29CC00240BFC /* Parse.framework */; };
+		1BE161261C1A29E600240BFC /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE161251C1A29E600240BFC /* ParseUI.framework */; };
+		1BE161331C1A381100240BFC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE161321C1A381100240BFC /* RegisterViewController.swift */; };
+		1BF451211C1CB7B900E29681 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF451201C1CB7B900E29681 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B0137391C1C6D3100F04D5D /* IngrePerro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngrePerro.swift; sourceTree = "<group>"; };
+		1B01373B1C1C6D4C00F04D5D /* IngreHamburguesa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreHamburguesa.swift; sourceTree = "<group>"; };
+		1B01373D1C1C6D5F00F04D5D /* IngreSandwich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreSandwich.swift; sourceTree = "<group>"; };
+		1B01373F1C1C6D6F00F04D5D /* IngreJugos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreJugos.swift; sourceTree = "<group>"; };
+		1B0137411C1C6D8100F04D5D /* IngreGaseosas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreGaseosas.swift; sourceTree = "<group>"; };
+		1B0137431C1C6D9800F04D5D /* IngreGranizados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreGranizados.swift; sourceTree = "<group>"; };
+		1B0137451C1C6DA700F04D5D /* IngreMalteadas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreMalteadas.swift; sourceTree = "<group>"; };
+		1B0137471C1C6DC900F04D5D /* IngreEnsaFrutas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreEnsaFrutas.swift; sourceTree = "<group>"; };
+		1B0137491C1C6DDB00F04D5D /* IngreBananaSplit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreBananaSplit.swift; sourceTree = "<group>"; };
+		1B01374B1C1C6DEA00F04D5D /* IngreCopaHelado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreCopaHelado.swift; sourceTree = "<group>"; };
+		1B01374D1C1C6DF900F04D5D /* IngreFresasHelado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreFresasHelado.swift; sourceTree = "<group>"; };
+		1B01374F1C1C6E0400F04D5D /* IngrePanaderia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngrePanaderia.swift; sourceTree = "<group>"; };
+		1B0137511C1C6E1000F04D5D /* IngreTipicos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreTipicos.swift; sourceTree = "<group>"; };
 		1B222C9E1C171D8F003E691D /* MiMenuIdeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiMenuIdeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B222CA11C171D8F003E691D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B222CA31C171D8F003E691D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +89,47 @@
 		1B222CA81C171D8F003E691D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B222CAB1C171D8F003E691D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B222CAD1C171D8F003E691D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE0D0031C1B7ED000C3F04C /* PerroTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerroTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D0051C1B7EEB00C3F04C /* HamburguesaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburguesaTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D0071C1B7EFE00C3F04C /* SandwichTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandwichTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D0091C1B7F1100C3F04C /* JugosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JugosTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D00B1C1B7F2100C3F04C /* GaseosasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaseosasTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D00D1C1B7F3800C3F04C /* GranizadosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GranizadosTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D00F1C1B7F4900C3F04C /* MalteadasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MalteadasTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D0111C1B7FB300C3F04C /* EnsaFrutasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnsaFrutasTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D0131C1B7FC400C3F04C /* BananaSplitTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BananaSplitTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D0151C1B7FD900C3F04C /* CopaHeladoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopaHeladoTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D0171C1B7FE800C3F04C /* FresasHeladoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FresasHeladoTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D0191C1B801300C3F04C /* PanaderiaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanaderiaTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D01B1C1B802100C3F04C /* TipicosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipicosTableViewCell.swift; sourceTree = "<group>"; };
+		1BE0D01D1C1B83C400C3F04C /* PerroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerroViewController.swift; sourceTree = "<group>"; };
+		1BE0D01F1C1B83D800C3F04C /* HamburguesaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburguesaViewController.swift; sourceTree = "<group>"; };
+		1BE0D0211C1B83FF00C3F04C /* SandwichViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandwichViewController.swift; sourceTree = "<group>"; };
+		1BE0D0231C1B840F00C3F04C /* JugosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JugosViewController.swift; sourceTree = "<group>"; };
+		1BE0D0251C1B842100C3F04C /* GaseosasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaseosasViewController.swift; sourceTree = "<group>"; };
+		1BE0D0271C1B843200C3F04C /* GranizadosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GranizadosViewController.swift; sourceTree = "<group>"; };
+		1BE0D0291C1B844200C3F04C /* MalteadasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MalteadasViewController.swift; sourceTree = "<group>"; };
+		1BE0D02B1C1B845200C3F04C /* EnsaFrutasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnsaFrutasViewController.swift; sourceTree = "<group>"; };
+		1BE0D02D1C1B846500C3F04C /* BananaSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BananaSplitViewController.swift; sourceTree = "<group>"; };
+		1BE0D02F1C1B847600C3F04C /* CopaHeladoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopaHeladoViewController.swift; sourceTree = "<group>"; };
+		1BE0D0311C1B848A00C3F04C /* FresasHeladoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FresasHeladoViewController.swift; sourceTree = "<group>"; };
+		1BE0D0331C1B849800C3F04C /* PanaderiaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanaderiaViewController.swift; sourceTree = "<group>"; };
+		1BE0D0351C1B84A600C3F04C /* TipicosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipicosViewController.swift; sourceTree = "<group>"; };
+		1BE1610C1C1A243300240BFC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1BE1610E1C1A243B00240BFC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1BE161101C1A244B00240BFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1BE161121C1A245400240BFC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1BE161141C1A245E00240BFC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1BE161161C1A246500240BFC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1BE161181C1A246F00240BFC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1BE1611A1C1A247B00240BFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1BE1611C1C1A26C900240BFC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1BE1611E1C1A274800240BFC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1BE161211C1A29BF00240BFC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1BE161231C1A29CC00240BFC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1BE161251C1A29E600240BFC /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		1BE161321C1A381100240BFC /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1BF451201C1CB7B900E29681 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,15 +137,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE1611F1C1A274800240BFC /* libsqlite3.tbd in Frameworks */,
+				1BE1611D1C1A26C900240BFC /* libz.tbd in Frameworks */,
+				1BE1611B1C1A247B00240BFC /* SystemConfiguration.framework in Frameworks */,
+				1BE161221C1A29BF00240BFC /* Bolts.framework in Frameworks */,
+				1BE161191C1A246F00240BFC /* StoreKit.framework in Frameworks */,
+				1BE161171C1A246500240BFC /* Security.framework in Frameworks */,
+				1BE161241C1A29CC00240BFC /* Parse.framework in Frameworks */,
+				1BE161151C1A245E00240BFC /* QuartzCore.framework in Frameworks */,
+				1BE161131C1A245400240BFC /* MobileCoreServices.framework in Frameworks */,
+				1BE161111C1A244B00240BFC /* CoreGraphics.framework in Frameworks */,
+				1BE1610F1C1A243B00240BFC /* CFNetwork.framework in Frameworks */,
+				1BE1610D1C1A243300240BFC /* AudioToolbox.framework in Frameworks */,
+				1BE161261C1A29E600240BFC /* ParseUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0137381C1C6C8D00F04D5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B0137391C1C6D3100F04D5D /* IngrePerro.swift */,
+				1B01373B1C1C6D4C00F04D5D /* IngreHamburguesa.swift */,
+				1B01373D1C1C6D5F00F04D5D /* IngreSandwich.swift */,
+				1B01373F1C1C6D6F00F04D5D /* IngreJugos.swift */,
+				1B0137411C1C6D8100F04D5D /* IngreGaseosas.swift */,
+				1B0137431C1C6D9800F04D5D /* IngreGranizados.swift */,
+				1B0137451C1C6DA700F04D5D /* IngreMalteadas.swift */,
+				1B0137471C1C6DC900F04D5D /* IngreEnsaFrutas.swift */,
+				1B0137491C1C6DDB00F04D5D /* IngreBananaSplit.swift */,
+				1B01374B1C1C6DEA00F04D5D /* IngreCopaHelado.swift */,
+				1B01374D1C1C6DF900F04D5D /* IngreFresasHelado.swift */,
+				1B01374F1C1C6E0400F04D5D /* IngrePanaderia.swift */,
+				1B0137511C1C6E1000F04D5D /* IngreTipicos.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		1B222C951C171D8F003E691D = {
 			isa = PBXGroup;
 			children = (
+				1BE161311C1A37BE00240BFC /* Supporting Files */,
+				1BE161201C1A27E800240BFC /* Framework */,
 				1B222CA01C171D8F003E691D /* MiMenuIdeal */,
 				1B222C9F1C171D8F003E691D /* Products */,
 			);
@@ -54,6 +197,8 @@
 		1B222CA01C171D8F003E691D /* MiMenuIdeal */ = {
 			isa = PBXGroup;
 			children = (
+				1B0137381C1C6C8D00F04D5D /* Models */,
+				1BE160FF1C1A20F000240BFC /* Cells */,
 				1B222CA11C171D8F003E691D /* AppDelegate.swift */,
 				1B222CA31C171D8F003E691D /* ViewController.swift */,
 				1B222CA51C171D8F003E691D /* Main.storyboard */,
@@ -62,6 +207,69 @@
 				1B222CAD1C171D8F003E691D /* Info.plist */,
 			);
 			path = MiMenuIdeal;
+			sourceTree = "<group>";
+		};
+		1BE160FF1C1A20F000240BFC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1BE0D0031C1B7ED000C3F04C /* PerroTableViewCell.swift */,
+				1BE0D0051C1B7EEB00C3F04C /* HamburguesaTableViewCell.swift */,
+				1BE0D0071C1B7EFE00C3F04C /* SandwichTableViewCell.swift */,
+				1BE0D0091C1B7F1100C3F04C /* JugosTableViewCell.swift */,
+				1BE0D00B1C1B7F2100C3F04C /* GaseosasTableViewCell.swift */,
+				1BE0D00D1C1B7F3800C3F04C /* GranizadosTableViewCell.swift */,
+				1BE0D00F1C1B7F4900C3F04C /* MalteadasTableViewCell.swift */,
+				1BE0D0111C1B7FB300C3F04C /* EnsaFrutasTableViewCell.swift */,
+				1BE0D0131C1B7FC400C3F04C /* BananaSplitTableViewCell.swift */,
+				1BE0D0151C1B7FD900C3F04C /* CopaHeladoTableViewCell.swift */,
+				1BE0D0171C1B7FE800C3F04C /* FresasHeladoTableViewCell.swift */,
+				1BE0D0191C1B801300C3F04C /* PanaderiaTableViewCell.swift */,
+				1BE0D01B1C1B802100C3F04C /* TipicosTableViewCell.swift */,
+			);
+			name = Cells;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1BE161201C1A27E800240BFC /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				1BE161251C1A29E600240BFC /* ParseUI.framework */,
+				1BE161231C1A29CC00240BFC /* Parse.framework */,
+				1BE161211C1A29BF00240BFC /* Bolts.framework */,
+				1BE1611E1C1A274800240BFC /* libsqlite3.tbd */,
+				1BE1611C1C1A26C900240BFC /* libz.tbd */,
+				1BE1611A1C1A247B00240BFC /* SystemConfiguration.framework */,
+				1BE161181C1A246F00240BFC /* StoreKit.framework */,
+				1BE161161C1A246500240BFC /* Security.framework */,
+				1BE161141C1A245E00240BFC /* QuartzCore.framework */,
+				1BE161121C1A245400240BFC /* MobileCoreServices.framework */,
+				1BE161101C1A244B00240BFC /* CoreGraphics.framework */,
+				1BE1610E1C1A243B00240BFC /* CFNetwork.framework */,
+				1BE1610C1C1A243300240BFC /* AudioToolbox.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		1BE161311C1A37BE00240BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BE161321C1A381100240BFC /* RegisterViewController.swift */,
+				1BE0D01D1C1B83C400C3F04C /* PerroViewController.swift */,
+				1BE0D01F1C1B83D800C3F04C /* HamburguesaViewController.swift */,
+				1BE0D0211C1B83FF00C3F04C /* SandwichViewController.swift */,
+				1BE0D0231C1B840F00C3F04C /* JugosViewController.swift */,
+				1BE0D0251C1B842100C3F04C /* GaseosasViewController.swift */,
+				1BE0D0271C1B843200C3F04C /* GranizadosViewController.swift */,
+				1BE0D0291C1B844200C3F04C /* MalteadasViewController.swift */,
+				1BE0D02B1C1B845200C3F04C /* EnsaFrutasViewController.swift */,
+				1BE0D02D1C1B846500C3F04C /* BananaSplitViewController.swift */,
+				1BE0D02F1C1B847600C3F04C /* CopaHeladoViewController.swift */,
+				1BE0D0311C1B848A00C3F04C /* FresasHeladoViewController.swift */,
+				1BE0D0331C1B849800C3F04C /* PanaderiaViewController.swift */,
+				1BE0D0351C1B84A600C3F04C /* TipicosViewController.swift */,
+				1BF451201C1CB7B900E29681 /* LoginViewController.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +343,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE0D0181C1B7FE800C3F04C /* FresasHeladoTableViewCell.swift in Sources */,
+				1BE0D0081C1B7EFE00C3F04C /* SandwichTableViewCell.swift in Sources */,
+				1BE0D02E1C1B846500C3F04C /* BananaSplitViewController.swift in Sources */,
+				1BE0D01A1C1B801300C3F04C /* PanaderiaTableViewCell.swift in Sources */,
+				1BE0D01C1C1B802100C3F04C /* TipicosTableViewCell.swift in Sources */,
+				1B01374C1C1C6DEB00F04D5D /* IngreCopaHelado.swift in Sources */,
+				1B01373C1C1C6D4C00F04D5D /* IngreHamburguesa.swift in Sources */,
+				1BE0D01E1C1B83C400C3F04C /* PerroViewController.swift in Sources */,
+				1B01374E1C1C6DF900F04D5D /* IngreFresasHelado.swift in Sources */,
+				1BE161331C1A381100240BFC /* RegisterViewController.swift in Sources */,
+				1B0137481C1C6DC900F04D5D /* IngreEnsaFrutas.swift in Sources */,
+				1BE0D00E1C1B7F3800C3F04C /* GranizadosTableViewCell.swift in Sources */,
+				1BE0D0361C1B84A600C3F04C /* TipicosViewController.swift in Sources */,
+				1BE0D0341C1B849800C3F04C /* PanaderiaViewController.swift in Sources */,
+				1BE0D0201C1B83D800C3F04C /* HamburguesaViewController.swift in Sources */,
+				1BE0D0221C1B83FF00C3F04C /* SandwichViewController.swift in Sources */,
 				1B222CA41C171D8F003E691D /* ViewController.swift in Sources */,
+				1BE0D0261C1B842100C3F04C /* GaseosasViewController.swift in Sources */,
+				1BE0D0041C1B7ED000C3F04C /* PerroTableViewCell.swift in Sources */,
+				1B0137501C1C6E0400F04D5D /* IngrePanaderia.swift in Sources */,
+				1BE0D02C1C1B845200C3F04C /* EnsaFrutasViewController.swift in Sources */,
+				1BE0D0281C1B843200C3F04C /* GranizadosViewController.swift in Sources */,
+				1B01374A1C1C6DDB00F04D5D /* IngreBananaSplit.swift in Sources */,
+				1B0137441C1C6D9800F04D5D /* IngreGranizados.swift in Sources */,
+				1B0137401C1C6D6F00F04D5D /* IngreJugos.swift in Sources */,
+				1B0137521C1C6E1000F04D5D /* IngreTipicos.swift in Sources */,
+				1BE0D0321C1B848A00C3F04C /* FresasHeladoViewController.swift in Sources */,
+				1BE0D0061C1B7EEB00C3F04C /* HamburguesaTableViewCell.swift in Sources */,
+				1B0137421C1C6D8100F04D5D /* IngreGaseosas.swift in Sources */,
+				1B01373E1C1C6D5F00F04D5D /* IngreSandwich.swift in Sources */,
+				1BE0D0301C1B847600C3F04C /* CopaHeladoViewController.swift in Sources */,
+				1BE0D02A1C1B844200C3F04C /* MalteadasViewController.swift in Sources */,
+				1BE0D0101C1B7F4900C3F04C /* MalteadasTableViewCell.swift in Sources */,
+				1B01373A1C1C6D3100F04D5D /* IngrePerro.swift in Sources */,
+				1BF451211C1CB7B900E29681 /* LoginViewController.swift in Sources */,
+				1BE0D00A1C1B7F1100C3F04C /* JugosTableViewCell.swift in Sources */,
 				1B222CA21C171D8F003E691D /* AppDelegate.swift in Sources */,
+				1BE0D0241C1B840F00C3F04C /* JugosViewController.swift in Sources */,
+				1BE0D0141C1B7FC400C3F04C /* BananaSplitTableViewCell.swift in Sources */,
+				1B0137461C1C6DA700F04D5D /* IngreMalteadas.swift in Sources */,
+				1BE0D00C1C1B7F2100C3F04C /* GaseosasTableViewCell.swift in Sources */,
+				1BE0D0121C1B7FB300C3F04C /* EnsaFrutasTableViewCell.swift in Sources */,
+				1BE0D0161C1B7FD900C3F04C /* CopaHeladoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +498,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MiMenuIdeal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = unicauca.MiMenuIdeal;
@@ -260,6 +513,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MiMenuIdeal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = unicauca.MiMenuIdeal;
@@ -286,6 +543,7 @@
 				1B222CB21C171D8F003E691D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
