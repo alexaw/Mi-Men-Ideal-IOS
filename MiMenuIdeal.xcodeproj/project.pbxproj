@@ -66,6 +66,11 @@
 		1BE161261C1A29E600240BFC /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE161251C1A29E600240BFC /* ParseUI.framework */; };
 		1BE161331C1A381100240BFC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE161321C1A381100240BFC /* RegisterViewController.swift */; };
 		1BF451211C1CB7B900E29681 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF451201C1CB7B900E29681 /* LoginViewController.swift */; };
+		1BF4513F1C1CE2A100E29681 /* ProductosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4513E1C1CE2A100E29681 /* ProductosViewController.swift */; };
+		1BF451411C1CE2BA00E29681 /* AddProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF451401C1CE2BA00E29681 /* AddProductoViewController.swift */; };
+		1BF451431C1CE40A00E29681 /* ProductosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF451421C1CE40A00E29681 /* ProductosTableViewCell.swift */; };
+		1BF451451C1CE60900E29681 /* Productos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF451441C1CE60900E29681 /* Productos.swift */; };
+		1BF451481C1CF35400E29681 /* ProductosDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF451471C1CF35400E29681 /* ProductosDao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +135,11 @@
 		1BE161251C1A29E600240BFC /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		1BE161321C1A381100240BFC /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		1BF451201C1CB7B900E29681 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1BF4513E1C1CE2A100E29681 /* ProductosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductosViewController.swift; sourceTree = "<group>"; };
+		1BF451401C1CE2BA00E29681 /* AddProductoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProductoViewController.swift; sourceTree = "<group>"; };
+		1BF451421C1CE40A00E29681 /* ProductosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductosTableViewCell.swift; sourceTree = "<group>"; };
+		1BF451441C1CE60900E29681 /* Productos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Productos.swift; sourceTree = "<group>"; };
+		1BF451471C1CF35400E29681 /* ProductosDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductosDao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +182,7 @@
 				1B01374D1C1C6DF900F04D5D /* IngreFresasHelado.swift */,
 				1B01374F1C1C6E0400F04D5D /* IngrePanaderia.swift */,
 				1B0137511C1C6E1000F04D5D /* IngreTipicos.swift */,
+				1BF451441C1CE60900E29681 /* Productos.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -179,6 +190,7 @@
 		1B222C951C171D8F003E691D = {
 			isa = PBXGroup;
 			children = (
+				1BE1611E1C1A274800240BFC /* libsqlite3.tbd */,
 				1BE161311C1A37BE00240BFC /* Supporting Files */,
 				1BE161201C1A27E800240BFC /* Framework */,
 				1B222CA01C171D8F003E691D /* MiMenuIdeal */,
@@ -197,6 +209,7 @@
 		1B222CA01C171D8F003E691D /* MiMenuIdeal */ = {
 			isa = PBXGroup;
 			children = (
+				1BF451461C1CF2C200E29681 /* Database */,
 				1B0137381C1C6C8D00F04D5D /* Models */,
 				1BE160FF1C1A20F000240BFC /* Cells */,
 				1B222CA11C171D8F003E691D /* AppDelegate.swift */,
@@ -225,6 +238,7 @@
 				1BE0D0171C1B7FE800C3F04C /* FresasHeladoTableViewCell.swift */,
 				1BE0D0191C1B801300C3F04C /* PanaderiaTableViewCell.swift */,
 				1BE0D01B1C1B802100C3F04C /* TipicosTableViewCell.swift */,
+				1BF451421C1CE40A00E29681 /* ProductosTableViewCell.swift */,
 			);
 			name = Cells;
 			path = ..;
@@ -236,7 +250,6 @@
 				1BE161251C1A29E600240BFC /* ParseUI.framework */,
 				1BE161231C1A29CC00240BFC /* Parse.framework */,
 				1BE161211C1A29BF00240BFC /* Bolts.framework */,
-				1BE1611E1C1A274800240BFC /* libsqlite3.tbd */,
 				1BE1611C1C1A26C900240BFC /* libz.tbd */,
 				1BE1611A1C1A247B00240BFC /* SystemConfiguration.framework */,
 				1BE161181C1A246F00240BFC /* StoreKit.framework */,
@@ -268,8 +281,18 @@
 				1BE0D0331C1B849800C3F04C /* PanaderiaViewController.swift */,
 				1BE0D0351C1B84A600C3F04C /* TipicosViewController.swift */,
 				1BF451201C1CB7B900E29681 /* LoginViewController.swift */,
+				1BF4513E1C1CE2A100E29681 /* ProductosViewController.swift */,
+				1BF451401C1CE2BA00E29681 /* AddProductoViewController.swift */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BF451461C1CF2C200E29681 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				1BF451471C1CF35400E29681 /* ProductosDao.swift */,
+			);
+			name = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,14 +368,17 @@
 			files = (
 				1BE0D0181C1B7FE800C3F04C /* FresasHeladoTableViewCell.swift in Sources */,
 				1BE0D0081C1B7EFE00C3F04C /* SandwichTableViewCell.swift in Sources */,
+				1BF4513F1C1CE2A100E29681 /* ProductosViewController.swift in Sources */,
 				1BE0D02E1C1B846500C3F04C /* BananaSplitViewController.swift in Sources */,
 				1BE0D01A1C1B801300C3F04C /* PanaderiaTableViewCell.swift in Sources */,
 				1BE0D01C1C1B802100C3F04C /* TipicosTableViewCell.swift in Sources */,
 				1B01374C1C1C6DEB00F04D5D /* IngreCopaHelado.swift in Sources */,
+				1BF451411C1CE2BA00E29681 /* AddProductoViewController.swift in Sources */,
 				1B01373C1C1C6D4C00F04D5D /* IngreHamburguesa.swift in Sources */,
 				1BE0D01E1C1B83C400C3F04C /* PerroViewController.swift in Sources */,
 				1B01374E1C1C6DF900F04D5D /* IngreFresasHelado.swift in Sources */,
 				1BE161331C1A381100240BFC /* RegisterViewController.swift in Sources */,
+				1BF451451C1CE60900E29681 /* Productos.swift in Sources */,
 				1B0137481C1C6DC900F04D5D /* IngreEnsaFrutas.swift in Sources */,
 				1BE0D00E1C1B7F3800C3F04C /* GranizadosTableViewCell.swift in Sources */,
 				1BE0D0361C1B84A600C3F04C /* TipicosViewController.swift in Sources */,
@@ -374,7 +400,9 @@
 				1B0137421C1C6D8100F04D5D /* IngreGaseosas.swift in Sources */,
 				1B01373E1C1C6D5F00F04D5D /* IngreSandwich.swift in Sources */,
 				1BE0D0301C1B847600C3F04C /* CopaHeladoViewController.swift in Sources */,
+				1BF451431C1CE40A00E29681 /* ProductosTableViewCell.swift in Sources */,
 				1BE0D02A1C1B844200C3F04C /* MalteadasViewController.swift in Sources */,
+				1BF451481C1CF35400E29681 /* ProductosDao.swift in Sources */,
 				1BE0D0101C1B7F4900C3F04C /* MalteadasTableViewCell.swift in Sources */,
 				1B01373A1C1C6D3100F04D5D /* IngrePerro.swift in Sources */,
 				1BF451211C1CB7B900E29681 /* LoginViewController.swift in Sources */,
