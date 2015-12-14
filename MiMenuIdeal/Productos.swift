@@ -10,17 +10,19 @@ import Foundation
 
 struct Productos {
     
+    var id:Int64
     var nombre:String!
     var ingrediente:String!
     
     init(){
+        id = 0
         nombre = ""
         ingrediente = ""
        
     }
     
     init(nombre:String, ingrediente:String){
-        
+        self.id = 0
         self.nombre = nombre
         self.ingrediente = ingrediente
     }

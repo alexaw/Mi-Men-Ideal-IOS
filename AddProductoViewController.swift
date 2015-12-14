@@ -9,11 +9,25 @@
 import UIKit
 
 class AddProductoViewController: UIViewController {
+    
+    var list:ProductosViewController!
+    var pos:Int?
+    var productosDao:ProductosDao!
 
+    @IBOutlet var nombre: UITextField!
+    @IBOutlet var ingrediente: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        if(pos != nil){
+            self.title = "Editar"
+            nombre.text = list.data[pos!].nombre
+            ingrediente.text = list.data[pos!].ingrediente
+        }
+        productosDao = ProductosDao()
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,14 +36,27 @@ class AddProductoViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func saveProducto(sender:AnyObject){
+        
+        if(pos != nil){
+            list.data[pos!].ingrediente = ingrediente.text!
+            list.data[pos!].nombre = nombre.text!
+            
+            productosDao.update(list.data[pos!])
+            
+        }else{
+            var p:Productos = Productos()
+            p.nombre = nombre.text!
+            p.ingrediente = ingrediente.text!
+            
+            
+            list.data.append(p)
+            productosDao.insert(p)
+        }
+        
+        self.navigationController?.popToViewController(list, animated: true)
+        
     }
-    */
+
 
 }

@@ -10,7 +10,7 @@
         <!--Iniciar sesion-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Iniciar sesion" id="BYZ-38-t0r" customClass="LoginViewController" customModule="MiMenuIdeal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" title="Iniciar sesion" id="BYZ-38-t0r" customClass="LoginViewController" customModule="MiMenuIdeal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -57,32 +57,6 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="2QZ-LH-VCV">
-                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="4nC-0A-W8k"/>
-                                    <constraint firstAttribute="height" constant="30" id="rML-bf-rXr"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="4nC-0A-W8k"/>
-                                        <exclude reference="rML-bf-rXr"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="rML-bf-rXr"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="4nC-0A-W8k"/>
-                                    </mask>
-                                </variation>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufS-Gh-Hdg">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
@@ -208,6 +182,32 @@
                                     </mask>
                                 </variation>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="2QZ-LH-VCV">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4nC-0A-W8k"/>
+                                    <constraint firstAttribute="height" constant="30" id="rML-bf-rXr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4nC-0A-W8k"/>
+                                        <exclude reference="rML-bf-rXr"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="rML-bf-rXr"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="4nC-0A-W8k"/>
+                                    </mask>
+                                </variation>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -305,11 +305,11 @@
                             <mask key="subviews">
                                 <exclude reference="lpD-ge-MdR"/>
                                 <exclude reference="zbH-Vq-Txl"/>
-                                <exclude reference="2QZ-LH-VCV"/>
                                 <exclude reference="ufS-Gh-Hdg"/>
                                 <exclude reference="AOt-MS-en5"/>
                                 <exclude reference="E06-JB-QWO"/>
                                 <exclude reference="dxz-BV-o1e"/>
+                                <exclude reference="2QZ-LH-VCV"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="7Sp-q2-zfp"/>
@@ -384,11 +384,11 @@
                             <mask key="subviews">
                                 <exclude reference="lpD-ge-MdR"/>
                                 <include reference="zbH-Vq-Txl"/>
-                                <include reference="2QZ-LH-VCV"/>
                                 <include reference="ufS-Gh-Hdg"/>
                                 <include reference="AOt-MS-en5"/>
                                 <include reference="E06-JB-QWO"/>
                                 <include reference="dxz-BV-o1e"/>
+                                <include reference="2QZ-LH-VCV"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="QLq-zj-9c7"/>
@@ -420,10 +420,10 @@
                             <mask key="subviews">
                                 <include reference="lpD-ge-MdR"/>
                                 <include reference="zbH-Vq-Txl"/>
-                                <include reference="2QZ-LH-VCV"/>
                                 <include reference="ufS-Gh-Hdg"/>
                                 <include reference="E06-JB-QWO"/>
                                 <include reference="dxz-BV-o1e"/>
+                                <include reference="2QZ-LH-VCV"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="7Sp-q2-zfp"/>
@@ -454,11 +454,11 @@
                             <mask key="subviews">
                                 <include reference="lpD-ge-MdR"/>
                                 <include reference="zbH-Vq-Txl"/>
-                                <include reference="2QZ-LH-VCV"/>
                                 <include reference="ufS-Gh-Hdg"/>
                                 <exclude reference="AOt-MS-en5"/>
                                 <include reference="E06-JB-QWO"/>
                                 <include reference="dxz-BV-o1e"/>
+                                <include reference="2QZ-LH-VCV"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="NXN-wT-fvP"/>
@@ -486,6 +486,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="UserSaved" destination="2QZ-LH-VCV" id="KDm-Lq-2Fj"/>
                         <outlet property="pass" destination="dxz-BV-o1e" id="5jq-EX-XTF"/>
                         <outlet property="usr" destination="2QZ-LH-VCV" id="GWQ-vj-l5I"/>
                     </connections>
@@ -3754,7 +3755,7 @@
         <!--Categorias-->
         <scene sceneID="Ffh-7G-yIG">
             <objects>
-                <viewController title="Categorias" id="68O-iO-4es" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Categoria" title="Categorias" id="68O-iO-4es" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1Q2-Iy-peA"/>
                         <viewControllerLayoutGuide type="bottom" id="33u-NI-KBO"/>
@@ -4359,6 +4360,9 @@
                                 <exclude reference="pFp-FC-JJ4"/>
                                 <exclude reference="tan-ju-nGk"/>
                                 <exclude reference="weR-UR-x8J"/>
+                                <exclude reference="eNR-TE-Gzx"/>
+                                <exclude reference="mgK-FI-wVg"/>
+                                <exclude reference="y7J-dw-nTQ"/>
                                 <exclude reference="3EZ-Fn-lah"/>
                                 <exclude reference="73D-of-61f"/>
                                 <exclude reference="U0V-Vt-kez"/>
@@ -4368,9 +4372,6 @@
                                 <exclude reference="ILQ-5s-ojT"/>
                                 <exclude reference="lEN-0H-rpL"/>
                                 <exclude reference="vg7-Fs-gxC"/>
-                                <exclude reference="eNR-TE-Gzx"/>
-                                <exclude reference="mgK-FI-wVg"/>
-                                <exclude reference="y7J-dw-nTQ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -4406,10 +4407,10 @@
                                 <include reference="aXZ-JY-5iN"/>
                                 <include reference="FH3-PK-GWh"/>
                                 <include reference="tan-ju-nGk"/>
+                                <include reference="y7J-dw-nTQ"/>
                                 <include reference="ILQ-5s-ojT"/>
                                 <include reference="lEN-0H-rpL"/>
                                 <include reference="vg7-Fs-gxC"/>
-                                <include reference="y7J-dw-nTQ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -4445,10 +4446,10 @@
                                 <include reference="jWv-W1-W7B"/>
                                 <include reference="pFp-FC-JJ4"/>
                                 <include reference="weR-UR-x8J"/>
+                                <include reference="eNR-TE-Gzx"/>
                                 <include reference="73D-of-61f"/>
                                 <include reference="U0V-Vt-kez"/>
                                 <include reference="hcf-VT-89t"/>
-                                <include reference="eNR-TE-Gzx"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -4486,10 +4487,10 @@
                                 <include reference="bhV-To-OCl"/>
                                 <include reference="FIf-wI-cZy"/>
                                 <include reference="OGx-rw-QX2"/>
+                                <include reference="mgK-FI-wVg"/>
                                 <include reference="3EZ-Fn-lah"/>
                                 <include reference="cNx-C3-hMl"/>
                                 <include reference="u7U-KC-q58"/>
-                                <include reference="mgK-FI-wVg"/>
                             </mask>
                         </variation>
                     </view>
@@ -4515,6 +4516,33 @@
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                             </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fnO-Rw-BHS">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <animations/>
+                                <items>
+                                    <barButtonItem title="Agregar" id="s05-DL-Fie">
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="wHS-Cf-KMY" kind="show" identifier="add" id="8Jc-AC-v5l"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XD5-q6-5n6"/>
+                                    <barButtonItem title="Editar" id="2E9-XC-9Z1">
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="editProductos:" destination="PhZ-Oe-m9d" id="NlP-u3-Bcg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="BOo-35-mQw"/>
+                                    <barButtonItem title="Eliminar" id="3MP-VR-OLs">
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="deleteProductoAlert:" destination="PhZ-Oe-m9d" id="FTu-of-CB4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="138" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jBX-3v-Xn3">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
@@ -4524,6 +4552,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q8Y-kT-HuZ" id="MRA-cE-wGR">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="137"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrediente" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8g4-Nd-qSi">
@@ -4628,35 +4657,11 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="72" width="400" height="678"/>
-                                </variation>
                                 <connections>
                                     <outlet property="dataSource" destination="PhZ-Oe-m9d" id="zrn-NS-8fV"/>
                                     <outlet property="delegate" destination="PhZ-Oe-m9d" id="0OO-wa-Bxq"/>
                                 </connections>
                             </tableView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fnO-Rw-BHS">
-                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
-                                <animations/>
-                                <items>
-                                    <barButtonItem title="Agregar" id="s05-DL-Fie">
-                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <connections>
-                                            <segue destination="wHS-Cf-KMY" kind="show" id="8Jc-AC-v5l"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XD5-q6-5n6"/>
-                                    <barButtonItem title="Editar" id="2E9-XC-9Z1">
-                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="BOo-35-mQw"/>
-                                    <barButtonItem title="Eliminar" id="3MP-VR-OLs">
-                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    </barButtonItem>
-                                </items>
-                                <color key="barTintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </toolbar>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -4679,14 +4684,14 @@
                                 <exclude reference="jBX-3v-Xn3"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="EQt-8C-aLq"/>
+                                <exclude reference="X8F-TE-beS"/>
                                 <exclude reference="948-2d-FfW"/>
                                 <exclude reference="VKG-3l-ZnH"/>
                                 <exclude reference="ybp-HM-10r"/>
                                 <exclude reference="B9R-AI-VbK"/>
                                 <exclude reference="GYd-NK-g5j"/>
                                 <exclude reference="T7k-5o-tUL"/>
-                                <exclude reference="EQt-8C-aLq"/>
-                                <exclude reference="X8F-TE-beS"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -4695,17 +4700,21 @@
                                 <include reference="jBX-3v-Xn3"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="EQt-8C-aLq"/>
+                                <include reference="X8F-TE-beS"/>
                                 <include reference="948-2d-FfW"/>
                                 <include reference="VKG-3l-ZnH"/>
                                 <include reference="ybp-HM-10r"/>
                                 <include reference="B9R-AI-VbK"/>
                                 <include reference="GYd-NK-g5j"/>
                                 <include reference="T7k-5o-tUL"/>
-                                <include reference="EQt-8C-aLq"/>
-                                <include reference="X8F-TE-beS"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="table" destination="jBX-3v-Xn3" id="Ig4-Gi-AAx"/>
+                        <segue destination="wHS-Cf-KMY" kind="show" identifier="edit" id="2NS-13-UYD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8IZ-2E-cKp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -4751,6 +4760,17 @@
                                     <rect key="frame" x="20" y="203" width="360" height="30"/>
                                 </variation>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaM-5W-pcY">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Agregar"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="288" width="136" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="saveProducto:" destination="wHS-Cf-KMY" eventType="touchUpInside" id="ylc-rs-rhf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -4759,6 +4779,7 @@
                                 <exclude reference="wHp-4E-v2y"/>
                                 <exclude reference="8pP-e2-LXO"/>
                                 <exclude reference="xJA-S3-Pd0"/>
+                                <exclude reference="aaM-5W-pcY"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -4766,9 +4787,14 @@
                                 <include reference="wHp-4E-v2y"/>
                                 <include reference="8pP-e2-LXO"/>
                                 <include reference="xJA-S3-Pd0"/>
+                                <include reference="aaM-5W-pcY"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="ingrediente" destination="xJA-S3-Pd0" id="UGd-M0-qGr"/>
+                        <outlet property="nombre" destination="8pP-e2-LXO" id="bir-Jo-vLe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l2Q-dy-lfJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -6640,8 +6666,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <animations/>
-                        <color key="backgroundColor" red="0.0" green="0.56499056208053688" blue="0.035549496644295304" alpha="0.53238585989999998" colorSpace="calibratedRGB"/>
-                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -6661,4 +6687,7 @@
         <image name="heladeria" width="805" height="561"/>
         <image name="varios" width="580" height="326"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="8Jc-AC-v5l"/>
+    </inferredMetricsTieBreakers>
 </document>

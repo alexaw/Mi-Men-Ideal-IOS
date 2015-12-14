@@ -13,10 +13,20 @@ import Foundation
 class LoginViewController: UIViewController {
 
     @IBOutlet var usr: UITextField!
+    @IBOutlet var UserSaved: UILabel!
+    
     @IBOutlet var pass: UITextField!
+    
+    var userD:NSUserDefaults!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        userD = NSUserDefaults()
+        
+        //? valor opcional, puede que no exista
+        let data:String? = userD.objectForKey("data") as? String
+        UserSaved.text = data
 
         // Do any additional setup after loading the view.
     }
@@ -27,6 +37,44 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func btnLog(sender: AnyObject) {
+        
+        
+        
+//        let query = PFQuery(className:"User")
+//        query.whereKey("Nombre", equalTo:usr.text!)
+//        query.findObjectsInBackgroundWithBlock {
+//            (objects: [PFObject]?, error: NSError?) -> Void in
+//            
+//            if error == nil {
+//                // The find succeeded.
+//                print("Successfully retrieved \(objects!.count) scores.")
+//                
+//                ///dirigir a principal
+//                //if objects!.count == 0 no login 
+//                //else if ==1 principal
+//                
+//                // Do something with the found objects
+//                if let objects = objects {
+//                    for object in objects {
+//                        
+//                        //s.nombreSemana = object[C_NAME_SEM]
+//                        print(object.objectId)
+//                        
+//                        
+//                    }
+//                }
+//            } else {
+//                // Log details of the failure
+//                print("Error: \(error!) \(error!.userInfo)")
+//            }
+//        }
+//        
+        
+        
+        
+        
+        self.userD.setObject(usr.text, forKey: "data")
+        
         PFUser.logInWithUsernameInBackground(usr.text!, password:pass.text!) {
             (user: PFUser?, error: NSError?) -> Void in
             if user != nil {
