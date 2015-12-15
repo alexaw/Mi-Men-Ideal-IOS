@@ -12,6 +12,9 @@ class ProductosTableViewCell: UITableViewCell {
     
     @IBOutlet var nom:UILabel!
     @IBOutlet var ing:UILabel!
+    @IBOutlet var ing2:UILabel!
+    @IBOutlet var ing3:UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -38,7 +38,8 @@ class LoginViewController: UIViewController {
     
     @IBAction func btnLog(sender: AnyObject) {
         
-        
+        let username = usr.text
+        let password = pass.text
         
 //        let query = PFQuery(className:"User")
 //        query.whereKey("Nombre", equalTo:usr.text!)
@@ -75,13 +76,16 @@ class LoginViewController: UIViewController {
         
         self.userD.setObject(usr.text, forKey: "data")
         
-        PFUser.logInWithUsernameInBackground(usr.text!, password:pass.text!) {
+        PFUser.logInWithUsernameInBackground(username!, password:password!) {
             (user: PFUser?, error: NSError?) -> Void in
             if user != nil {
                 // Yes, User Exists
+                
                 print("ok")
             } else {
                 // No, User Doesn't Exist
+               
+                print("error")
             }
         }
 
